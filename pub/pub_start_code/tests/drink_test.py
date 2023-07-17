@@ -5,6 +5,7 @@ class TestDrink(unittest.TestCase):
     
     def setUp(self):
         self.drink = Drink("wine", 4.00)
+        # self.drink = Drink("lager", 3.00)
         
     
     def test_drink_has_name(self):
